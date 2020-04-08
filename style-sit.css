@@ -1,0 +1,279 @@
+body{
+	position: relative;
+	width: 1000;
+	margin: 0 auto;
+	padding:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: url(img/Dom.bmp)no-repeat;
+	height: 100%;
+	text-decoration: none;
+/*align-self: center;
+vertical-align: top;*/
+}
+#reg{
+	position: block;
+	width: 400px;
+	height: 100px;
+	left: 300px; 
+    color: #fff;
+    top:50px;
+	text-align: center; 
+	background: grey;
+	transform-origin: 50%50%;
+    box-shadow: 10px 10px 35px 5px #311;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.site-title{
+	position: absolute;
+	width: 400px;
+font-size: 40px;
+margin-left: 400px;
+text-align-last: center;
+	font-family: Times;
+	text-decoration: none;
+
+}
+
+#menu-menu-1{
+	top:50px;
+	width: 270px;
+	height: 500px;
+	text-align: center; 
+	background: grey;
+	transform-origin: 50%50%;
+    box-shadow: 10px 10px 35px 5px #311;
+
+	
+}
+#menu-item{
+	display: block;
+	 color: green;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 26px;
+    cursor: pointer;
+    width: 230px;
+    border-style: groove;
+    text-decoration:none;
+    transform-origin: 50%50%;
+    box-shadow: 10px 10px 35px 5px #311;
+} 
+
+
+.logo{
+	color: gray;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 107px;
+    cursor: pointer;
+}
+.header{
+	float: right;
+    margin-top: 35px;
+    margin-right: 107px;
+    cursor: pointer;
+}
+.nav{
+	display: inline-block;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+}
+.content{position: relative;
+	float: center;
+	align-content: center;
+	 background-image: url("./images/wallpaperwide.png");
+    height: 520px;
+    background-repeat: no-repeat;
+
+}
+.logo1{
+ color: white;
+    position: relative;
+    top: 150px;
+    left: 800px;
+    text-align: center;
+    width: 320px;
+    font-size: 40px;
+    line-height: 1.5;
+
+
+}
+.logo2 {height: 100px;
+	text-align: center;
+	color: grey;
+}
+.info{display: table;
+	 background-color: #cecece;
+    height: 300px;width: 100%;
+}
+.info1{
+	display: table-cell;
+	  width: 300px;
+	  padding: 25px;
+    border-right: 2px solid grey;
+    text-align: right;
+
+}
+.info2{
+	 width: 200px;
+    display: table-cell;
+    text-align: center;
+    border-right: 2px solid grey;
+    padding: 25px;
+}
+.info3{
+	 width: 200px;
+    display: table-cell;
+    text-align: center;
+    border-right: 2px solid grey;
+    padding: 25px;
+}
+.info4{
+	 width: 300px;
+    display: table-cell;
+    text-align: left;
+    border-right: 2px solid grey;
+    padding: 25px;
+}
+.logo3{
+	height: 100px;
+	text-align: center;
+	color: grey;
+}
+.line{
+	margin-left: 104px; margin-top: 10px;
+}
+.line1{
+	display: inline-block;
+	width: 820px;
+	height: 2px;
+	background-color: grey;
+
+}
+.line2{
+	display: inline-block;
+	width: 820px;
+	height: 2px;
+	background-color: grey;
+}
+.miaso{position: absolute;
+	left: 465px;
+
+}
+.button{position: relative;
+	width: 120px;
+	height: 35px;
+	text-align: center;
+	background-color: orange;
+	color: #fff;
+	top: 360px;
+	left: 47%;
+	padding-top: 10px;
+}
+.line3{
+	position: absolute;
+	display: inline-block;
+	width: 820px;
+	height: 2px;
+	background-color: grey;
+	top: 1670px;
+	left: 25%; 
+}
+.footer{
+
+	position: relative;
+	top: 450px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    left: 250px;
+    
+}
+.foto1{
+	padding-top: 30px;
+}
+.foto2{
+	padding-top: 30px;
+}
+.foto3{
+	padding-top: 30px;
+}
+
+.foto4{
+	padding-top: 30px;
+}
+.cras{
+	position: relative;
+	width: 1900px;
+	height: 250px;
+	background-color: grey;
+	top: 500px;
+}
+
+.cras_c{
+	text-align: center;
+	color: #fff;
+	margin: 20px;
+
+}
+.cras1{
+	width: 450px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.cras_t{background-color:#000;
+border-radius: 7px; 
+	color: #fff;
+	width: 500px;
+	height: 80px;
+	left: 1200px;
+	top:116px;
+	position: absolute;
+}
+.foll{position: relative;
+	top: 550px;
+	display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+
+}
+.foll1{
+	width: 300px;
+	margin-left: 200px;
+}
+.foll2{
+	width: 300px;
+	margin-left: 200px;
+}
+.foll3{
+	width: 300px;
+	margin-left: 300px;
+}
+.bottom_footer{
+	position: relative;
+	top: 550px;
+    height: 100px;
+    background-color: #797979;
+}
+.bottom_footer-text{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+text-align: center;}
